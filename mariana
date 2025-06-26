@@ -115,10 +115,11 @@
     
     <!-- Header -->
     <header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-transparent backdrop-blur-none">
-        <div class="container mx-auto px-5 py-5 flex justify-between items-center">
-            <a href="#" class="text-3xl font-black hover:text-electric transition-colors">
-                Dra. <span class="text-electric">Torres</span>
-            </a>
+         <div class="container mx-auto px-5 py-3 flex justify-between items-center">
+        <!-- Logo con imagen -->
+        <a href="#" class="flex items-center">
+            <img src="imagen/torres.png" alt="Logo Dra. Mariana Torres - Abogada Penalista" class="h-16 md:h-20 transition-opacity hover:opacity-90">
+        </a>
             
             <nav class="hidden md:block">
                 <ul class="flex space-x-10">
