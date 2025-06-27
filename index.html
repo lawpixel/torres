@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="es-MX" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Mariana Torres | Abogada Penalista #1 en CDMX | +500 Casos Ganados</title>
+    <meta name="description" content="Abogada penalista con 12 años de experiencia y 95% de éxito en casos. Defensa legal estratégica en CDMX. Consulta inmediata 24/7.">
+    <meta name="keywords" content="abogado penalista CDMX, mejor abogada penalista, defensa criminal, abogado derecho penal, abogado casos difíciles, Mariana Torres abogada">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Dra. Mariana Torres - Abogada Penalista",
+      "image": "https://www.marianatorresabogada.com/images/logo.jpg",
+      "description": "Abogada penalista con 12 años de experiencia y 95% de éxito en casos. Defensa legal estratégica en CDMX.",
+      "telephone": "+525512345678",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Paseo de la Reforma 250",
+        "addressLocality": "Ciudad de México",
+        "addressRegion": "CDMX",
+        "postalCode": "06600",
+        "addressCountry": "MX"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "09:00",
+        "closes": "20:00"
+      },
+      "priceRange": "$$$"
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        electric: '#00a8ff',
+                        dark: '#001a33',
+                        success: '#28a745',
+                    },
+                    animation: {
+                        'gradient': 'gradient 15s ease infinite',
+                        'pulse-slow': 'pulse 3s ease infinite',
+                    },
+                    keyframes: {
+                        gradient: {
+                            '0%, 100%': { 'background-position': '0% 50%' },
+                            '50%': { 'background-position': '100% 50%' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style type="text/css">
+        .bg-animated {
+            background: linear-gradient(45deg, #000, #001a33, #000, #001a33);
+            background-size: 400% 400%;
+        }
+        
+        .light-effect {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at var(--x) var(--y), 
+                        rgba(0, 168, 255, 0.1) 0%, 
+                        transparent 70%);
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        .stat-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .testimonial-card {
+            background: rgba(0, 168, 255, 0.05);
+            border: 1px solid rgba(0, 168, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-black text-white font-sans overflow-x-hidden">
+    <!-- Efecto de luz -->
+    <div class="light-effect" id="light"></div>
+    
+    <!-- Fondo animado -->
+    <div class="fixed top-0 left-0 w-full h-full bg-animated animate-gradient -z-10"></div>
+    
+    <!-- Header -->
+    <header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-transparent backdrop-blur-none">
+         <div class="container mx-auto px-5 py-3 flex justify-between items-center">
+        <!-- Logo con imagen -->
+        <a href="#" class="flex items-center">
+            <img src="imagen/torres.png" alt="Logo Dra. Mariana Torres - Abogada Penalista" class="h-16 md:h-20 transition-opacity hover:opacity-90">
+        </a>
+            
+            <nav class="hidden md:block">
+                <ul class="flex space-x-10">
+                    <li><a href="#inicio" class="font-bold hover:text-electric transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-electric after:transition-all hover:after:w-full">Inicio</a></li>
+                    <li><a href="#servicios" class="font-bold hover:text-electric transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-electric after:transition-all hover:after:w-full">Servicios</a></li>
+                    <li><a href="#sobre-mi" class="font-bold hover:text-electric transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-electric after:transition-all hover:after:w-full">Sobre Mí</a></li>
+                    <li><a href="#resultados" class="font-bold hover:text-electric transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-electric after:transition-all hover:after:w-full">Resultados</a></li>
+                    <li><a href="#testimonios" class="font-bold hover:text-electric transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-electric after:transition-all hover:after:w-full">Testimonios</a></li>
+                    <li><a href="#contacto" class="font-bold hover:text-electric transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-electric after:transition-all hover:after:w-full">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <a href="tel:+525512345678" class="hidden md:flex items-center bg-electric text-black font-bold py-2 px-6 rounded-full hover:bg-white transition-colors animate-pulse-slow">
+                <i class="fas fa-phone mr-2"></i> 55 1234 5678
+            </a>
+            
+            <button class="md:hidden text-2xl" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div class="md:hidden hidden bg-black/90 backdrop-blur-md w-full absolute left-0 px-5 pb-5" id="mobile-menu">
+            <ul class="space-y-4 py-4">
+                <li><a href="#inicio" class="block font-bold hover:text-electric transition-colors">Inicio</a></li>
+                <li><a href="#servicios" class="block font-bold hover:text-electric transition-colors">Servicios</a></li>
+                <li><a href="#sobre-mi" class="block font-bold hover:text-electric transition-colors">Sobre Mí</a></li>
+                <li><a href="#resultados" class="block font-bold hover:text-electric transition-colors">Resultados</a></li>
+                <li><a href="#testimonios" class="block font-bold hover:text-electric transition-colors">Testimonios</a></li>
+                <li><a href="#contacto" class="block font-bold hover:text-electric transition-colors">Contacto</a></li>
+                <li>
+                    <a href="tel:+525512345678" class="flex items-center justify-center bg-electric text-black font-bold py-3 px-6 rounded-full hover:bg-white transition-colors w-full mt-4">
+                        <i class="fas fa-phone mr-2"></i> Llamar Ahora
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section - Ahora completamente centrado -->
+    <section id="inicio" class="min-h-screen flex items-center justify-center text-center relative pt-20">
+        <div class="container mx-auto px-5">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black uppercase leading-tight mb-6">
+                    DEFENSA PENAL <span class="text-electric">GARANTIZADA</span>
+                </h1>
+                <p class="text-xl md:text-2xl mb-10 mx-auto max-w-2xl opacity-90">
+                    <span class="text-electric font-bold">+50 casos ganados</span> en 12 años de experiencia. Su libertad es mi prioridad absoluta.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 mb-16 justify-center">
+                    <a href="#contacto" class="bg-electric hover:bg-white text-black font-bold py-4 px-8 rounded-full uppercase text-sm tracking-wider hover:shadow-lg hover:shadow-electric/40 hover:-translate-y-1 transition-all duration-300 inline-flex items-center justify-center">
+                        <i class="fas fa-gavel mr-2"></i> Consulta Gratuita
+                    </a>
+                    <a href="tel:+525512345678" class="border-2 border-white hover:border-electric text-white hover:text-electric font-bold py-4 px-8 rounded-full uppercase text-sm tracking-wider hover:bg-white/10 transition-all duration-300 inline-flex items-center justify-center">
+                        <i class="fas fa-phone mr-2"></i> Emergencias 24/7
+                    </a>
+                </div>
+                
+                <div class="flex flex-wrap gap-4 justify-center">
+                    <div class="flex items-center bg-white/5 px-4 py-2 rounded-full border border-white/10">
+                        <i class="fas fa-check-circle text-success mr-2"></i>
+                        <span class="text-sm">95% de éxito en casos</span>
+                    </div>
+                    <div class="flex items-center bg-white/5 px-4 py-2 rounded-full border border-white/10">
+                        <i class="fas fa-user-tie text-electric mr-2"></i>
+                        <span class="text-sm">+12 años de experiencia</span>
+                    </div>
+                    <div class="flex items-center bg-white/5 px-4 py-2 rounded-full border border-white/10">
+                        <i class="fas fa-shield-alt text-electric mr-2"></i>
+                        <span class="text-sm">Defensa estratégica</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="py-20 relative">
+        <div class="container mx-auto px-5">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <!-- Imagen de la Dra. Torres -->
+                <div class="lg:w-1/2">
+                    <div class="relative group">
+                        <img src="https://images.unsplash.com/photo-1662104935883-e9dd0619eaba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                             alt="Dra. Mariana Torres - Abogada Penalista"
+                             class="w-full rounded-xl shadow-2xl border-4 border-electric/50 group-hover:border-electric transition-all duration-500">
+                        <div class="absolute -bottom-5 -right-5 bg-electric text-black py-3 px-6 rounded-lg shadow-lg">
+                            <div class="text-2xl font-black">12+</div>
+                            <div class="text-sm font-bold">Años de Experiencia</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contenido sobre la Dra. Torres -->
+                <div class="lg:w-1/2">
+                    <h2 class="text-4xl md:text-5xl font-black uppercase mb-6">
+                        SOBRE <span class="text-electric">LA DRA. TORRES</span>
+                    </h2>
+                    <p class="text-xl mb-6">
+                        La <span class="font-bold text-electric">Dra. Mariana Torres</span> es reconocida como una de las abogadas penalistas más efectivas de Ciudad de México, con un historial comprobado de casos exitosos en situaciones legales complejas.
+                    </p>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-start">
+                            <i class="fas fa-graduation-cap text-electric text-xl mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-bold text-lg">Formación Académica</h4>
+                                <p class="opacity-90">
+                                    Licenciada en Derecho con Mención Honorífica por la UNAM. Maestría en Derecho Penal por el Instituto Nacional de Ciencias Penales. Certificada en Litigio Oral Penal.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <i class="fas fa-briefcase text-electric text-xl mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-bold text-lg">Trayectoria Profesional</h4>
+                                <p class="opacity-90">
+                                    Ex fiscal especializada en delitos económicos. Fundadora del Despacho Torres & Asociados. Conferencista en el Congreso Nacional de Derecho Penal.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <i class="fas fa-medal text-electric text-xl mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-bold text-lg">Reconocimientos</h4>
+                                <p class="opacity-90">
+                                    Premio Nacional al Mérito Jurídico 2020. Incluida en la lista "Los 50 abogados más influyentes" por la Revista Jurídica Mexicana.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white/5 p-6 rounded-xl border border-electric/20">
+                        <h4 class="font-bold text-lg mb-3 text-electric">Filosofía Legal</h4>
+                        <p class="italic mb-4">
+                            "Cada caso es único y merece una defensa estratégica personalizada. Mi compromiso es proteger los derechos de mis clientes con ética, pasión y resultados comprobables."
+                        </p>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-electric mr-3">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" 
+                                     alt="Firma Dra. Torres"
+                                     class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <div class="font-bold">Dra. Mariana Torres</div>
+                                <div class="text-sm opacity-80">Abogada Penalista</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-20 relative">
+        <div class="container mx-auto px-5">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-black uppercase mb-4">
+                    SERVICIOS DE <span class="text-electric">DEFENSA PENAL</span>
+                </h2>
+                <p class="text-xl max-w-3xl mx-auto opacity-80">
+                    Estrategias legales personalizadas para proteger su libertad y derechos
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Servicio 1 -->
+                <div class="stat-card rounded-xl p-8 hover:border-electric transition-all duration-300">
+                    <div class="text-electric text-4xl mb-4">
+                        <i class="fas fa-handcuffs"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Defensa Penal Integral</h3>
+                    <p class="mb-4 opacity-80">
+                        Representación en todas las etapas del proceso penal, desde la detención hasta el juicio oral, con estrategias probadas en +200 casos similares.
+                    </p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-success mt-1 mr-2"></i>
+                            <span>Defensa en audiencias iniciales</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-success mt-1 mr-2"></i>
+                            <span>Recursos y amparos</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-success mt-1 mr-2"></i>
+                            <span>Negociación con ministerio público</span>
+                        </li>
+                    </ul>
+                    <a href="#contacto" class="inline-flex items-center text-electric font-bold group">
+                        Consultar caso <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+                
+                <!-- Servicio 2 -->
+                <div class="stat-card rounded-xl p-8 hover:border-electric transition-all duration-300">
+                    <div class="text-electric text-4xl mb-4">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Defensa Corporativa</h3>
+                    <p class="mb-4 opacity-80">
+                        Protección legal para empresas y ejecutivos en procesos penales relacionados con actividades comerciales, financieras y fiscales.
+                    </p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-success mt-1 mr-2"></i>
+                            <span>Delitos fiscales y financieros</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-success mt-1 mr-2"></i>
+                            <span>Defensa de propiedad intelectual</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-success mt-1 mr-2"></i>
+                            <span>Protección de datos y compliance</span>
+                        </li>
+                    </ul>
+                    <a href="#contacto" class="inline-flex items-center text-electric font-bold group">
+                        Proteger mi empresa <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+                
+                <!-- Servicio 3 -->
+                <div class="stat-card rounded-xl p-8 hover:border-electric transition-all duration-300">
+                    <div class="text-electric text-4xl mb-4">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Defensa Familiar</h3>
+                    <p class="mb-4 opacity-80">
+                        Representación especializada para familias en situaciones penales delicadas, con enfoque humano y absoluta discreción.
+                    </p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-success mt-1 mr-2"></i>
+                            <span>Defensa de menores de edad</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-success mt-1 mr-2"></i>
+                            <span>Violencia intrafamiliar</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-success mt-1 mr-2"></i>
+                            <span>Protección contra acusaciones falsas</span>
+                        </li>
+                    </ul>
+                    <a href="#contacto" class="inline-flex items-center text-electric font-bold group">
+                        Proteger a mi familia <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resultados -->
+    <section id="resultados" class="py-20 relative bg-gradient-to-b from-black to-dark">
+        <div class="container mx-auto px-5">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-black uppercase mb-4">
+                    RESULTADOS <span class="text-electric">COMPROBADOS</span>
+                </h2>
+                <p class="text-xl max-w-3xl mx-auto opacity-80">
+                    Estadísticas que demuestran nuestra efectividad en defensa penal
+                </p>
+            </div>
+            
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="stat-card rounded-xl p-8 text-center">
+                    <div class="text-electric text-5xl font-black mb-2">
+                        <span class="counter" data-target="12">0</span>+
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Años de Experiencia</h3>
+                    <p class="opacity-80">Defendiendo derechos en CDMX</p>
+                </div>
+                
+                <div class="stat-card rounded-xl p-8 text-center">
+                    <div class="text-electric text-5xl font-black mb-2">
+                        <span class="counter" data-target="500">0</span>+
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Casos Atendidos</h3>
+                    <p class="opacity-80">Con estrategias personalizadas</p>
+                </div>
+                
+                <div class="stat-card rounded-xl p-8 text-center">
+                    <div class="text-electric text-5xl font-black mb-2">
+                        <span class="counter" data-target="95">0</span>%
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Tasa de Éxito</h3>
+                    <p class="opacity-80">En resultados favorables</p>
+                </div>
+                
+                <div class="stat-card rounded-xl p-8 text-center">
+                    <div class="text-electric text-5xl font-black mb-2">
+                        <span class="counter" data-target="24">0</span>/7
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Disponibilidad</h3>
+                    <p class="opacity-80">Atención inmediata para emergencias</p>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <a href="#contacto" class="inline-flex items-center bg-electric hover:bg-white text-black font-bold py-4 px-8 rounded-full uppercase text-sm tracking-wider hover:shadow-lg hover:shadow-electric/40 hover:-translate-y-1 transition-all duration-300">
+                    <i class="fas fa-calendar-check mr-2"></i> Agendar Consulta Personalizada
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="py-20 relative">
+        <div class="container mx-auto px-5">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-black uppercase mb-4">
+                    TESTIMONIOS <span class="text-electric">REALES</span>
+                </h2>
+                <p class="text-xl max-w-3xl mx-auto opacity-80">
+                    Lo que dicen nuestros clientes sobre nuestra representación legal
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Testimonio 1 -->
+                <div class="testimonial-card rounded-xl p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full overflow-hidden mr-4 border-2 border-electric">
+                            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Cliente satisfecho" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-xl">Ana G.</h4>
+                            <p class="text-electric">Caso de Defensa Familiar</p>
+                        </div>
+                    </div>
+                    <p class="italic text-lg mb-4">
+                        "La Dra. Torres salvó a mi hijo de una injusticia. En momentos de desesperación, nos brindó no solo excelente asesoría legal, sino también comprensión y apoyo humano. Su ética y experiencia marcaron la diferencia entre la libertad y la prisión."
+                    </p>
+                    <div class="flex">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonio 2 -->
+                <div class="testimonial-card rounded-xl p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full overflow-hidden mr-4 border-2 border-electric">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente satisfecho" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-xl">Carlos M.</h4>
+                            <p class="text-electric">Director General</p>
+                        </div>
+                    </div>
+                    <p class="italic text-lg mb-4">
+                        "Como empresario, enfrenté acusaciones graves que ponían en riesgo mi compañía y mi libertad. La estrategia legal de la Dra. Torres no solo resolvió el caso favorablemente, sino que protegió la reputación de mi empresa. Hoy sigo al frente de mi negocio gracias a su trabajo."
+                    </p>
+                    <div class="flex">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonio 3 -->
+                <div class="testimonial-card rounded-xl p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full overflow-hidden mr-4 border-2 border-electric">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Cliente satisfecho" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-xl">Familia Rodríguez</h4>
+                            <p class="text-electric">Caso Penal Complejo</p>
+                        </div>
+                    </div>
+                    <p class="italic text-lg mb-4">
+                        "La Dra. Torres logró la absolución de mi hijo en un caso muy complejo. Su profesionalismo, dedicación y conocimiento del sistema legal fueron fundamentales para obtener este resultado. Su atención personalizada y disponibilidad 24/7 nos dio tranquilidad en el proceso."
+                    </p>
+                    <div class="flex">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonio 4 -->
+                <div class="testimonial-card rounded-xl p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full overflow-hidden mr-4 border-2 border-electric">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Cliente satisfecho" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-xl">Javier L.</h4>
+                            <p class="text-electric">Caso de Litigio Estratégico</p>
+                        </div>
+                    </div>
+                    <p class="italic text-lg mb-4">
+                        "Después de consultar con varios abogados, ninguno me dio esperanzas hasta que conocí a la Dra. Torres. Su enfoque estratégico y conocimiento profundo del derecho penal dieron un giro completo a mi caso. Recomiendo sus servicios sin dudarlo, es la mejor abogada penalista en CDMX."
+                    </p>
+                    <div class="flex">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-20 relative bg-gradient-to-b from-dark to-black">
+        <div class="container mx-auto px-5">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl md:text-5xl font-black uppercase mb-6">
+                        CONTACTO <span class="text-electric">INMEDIATO</span>
+                    </h2>
+                    <p class="text-xl mb-8 max-w-lg">
+                        ¿Enfrentando cargos penales? Actuar rápido es crucial. Contacte a la Dra. Torres ahora mismo para una consulta confidencial.
+                    </p>
+                    
+                    <div class="space-y-6 mb-10">
+                        <div class="flex items-start">
+                            <div class="text-electric text-2xl mr-4 mt-1">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Teléfono 24/7</h3>
+                                <a href="tel:+525512345678" class="text-2xl hover:text-electric transition-colors">+52 55 1234 5678</a>
+                                <p class="opacity-80">Emergencias penales atendidas inmediatamente</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-electric text-2xl mr-4 mt-1">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Correo Electrónico</h3>
+                                <a href="mailto:contacto@marianatorresabogada.com" class="text-xl hover:text-electric transition-colors">contacto@marianatorresabogada.com</a>
+                                <p class="opacity-80">Respuesta en menos de 2 horas</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-electric text-2xl mr-4 mt-1">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-xl mb-1">Oficina en CDMX</h3>
+                                <p class="text-xl">Paseo de la Reforma 250, Juárez</p>
+                                <p class="opacity-80">Consultas con cita previa</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-4">
+                        <a href="https://wa.me/525512345678" class="flex items-center bg-success hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full transition-colors">
+                            <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+                        </a>
+                        <a href="tel:+525512345678" class="flex items-center bg-electric hover:bg-white text-black font-bold py-3 px-6 rounded-full transition-colors">
+                            <i class="fas fa-phone mr-2"></i> Llamar Ahora
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bg-black/50 rounded-xl p-8 border border-white/10">
+                    <h3 class="text-2xl font-bold mb-6">Consulta Legal <span class="text-electric">Confidencial</span></h3>
+                    <form id="contact-form" class="space-y-5">
+                        <div>
+                            <label for="name" class="block font-bold mb-2">Nombre Completo *</label>
+                            <input type="text" id="name" name="name" required class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:border-electric focus:ring-2 focus:ring-electric/50 outline-none transition-all">
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block font-bold mb-2">Correo Electrónico *</label>
+                            <input type="email" id="email" name="email" required class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:border-electric focus:ring-2 focus:ring-electric/50 outline-none transition-all">
+                        </div>
+                        
+                        <div>
+                            <label for="phone" class="block font-bold mb-2">Teléfono *</label>
+                            <input type="tel" id="phone" name="phone" required class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:border-electric focus:ring-2 focus:ring-electric/50 outline-none transition-all">
+                        </div>
+                        
+                        <div>
+                            <label for="case" class="block font-bold mb-2">Tipo de Caso *</label>
+                            <select id="case" name="case" required class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:border-electric focus:ring-2 focus:ring-electric/50 outline-none transition-all">
+                                <option value="">Seleccione una opción</option>
+                                <option value="defensa_penal">Defensa Penal</option>
+                                <option value="defensa_corporativa">Defensa Corporativa</option>
+                                <option value="defensa_familiar">Defensa Familiar</option>
+                                <option value="litigio_estrategico">Litigio Estratégico</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block font-bold mb-2">Describa brevemente su situación *</label>
+                            <textarea id="message" name="message" rows="4" required class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:border-electric focus:ring-2 focus:ring-electric/50 outline-none transition-all"></textarea>
+                        </div>
+                        
+                        <div class="pt-2">
+                            <button type="submit" class="w-full bg-electric hover:bg-white text-black font-bold py-4 px-6 rounded-lg transition-all flex items-center justify-center">
+                                <i class="fas fa-paper-plane mr-2"></i> Enviar Consulta
+                            </button>
+                        </div>
+                        
+                        <p class="text-sm opacity-70">
+                            * Todos los datos proporcionados son confidenciales y protegidos por el secreto profesional.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/10">
+        <div class="container mx-auto px-5">
+            <div class="grid md:grid-cols-4 gap-10 mb-12">
+                <div>
+                    <h3 class="text-2xl font-black mb-4">
+                        Dra. <span class="text-electric">Torres</span>
+                    </h3>
+                    <p class="mb-4 opacity-80">
+                        Abogada penalista especializada en defensa estratégica con más de 12 años de experiencia protegiendo los derechos de sus clientes en Ciudad de México.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-xl hover:text-electric transition-colors">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="text-xl hover:text-electric transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-xl hover:text-electric transition-colors">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Enlaces Rápidos</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#inicio" class="hover:text-electric transition-colors">Inicio</a></li>
+                        <li><a href="#servicios" class="hover:text-electric transition-colors">Servicios</a></li>
+                        <li><a href="#sobre-mi" class="hover:text-electric transition-colors">Sobre Mí</a></li>
+                        <li><a href="#resultados" class="hover:text-electric transition-colors">Resultados</a></li>
+                        <li><a href="#testimonios" class="hover:text-electric transition-colors">Testimonios</a></li>
+                        <li><a href="#contacto" class="hover:text-electric transition-colors">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Áreas de Práctica</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="hover:text-electric transition-colors">Defensa Penal Integral</a></li>
+                        <li><a href="#" class="hover:text-electric transition-colors">Defensa Corporativa</a></li>
+                        <li><a href="#" class="hover:text-electric transition-colors">Defensa Familiar</a></li>
+                        <li><a href="#" class="hover:text-electric transition-colors">Litigios Estratégicos</a></li>
+                        <li><a href="#" class="hover:text-electric transition-colors">Recursos y Amparos</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Contacto</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-phone text-electric mr-3 mt-1"></i>
+                            <a href="tel:+525512345678" class="hover:text-electric transition-colors">+52 55 1234 5678</a>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope text-electric mr-3 mt-1"></i>
+                            <a href="mailto:contacto@marianatorresabogada.com" class="hover:text-electric transition-colors">contacto@marianatorresabogada.com</a>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-electric mr-3 mt-1"></i>
+                            <span>Paseo de la Reforma 250, CDMX</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="pt-6 border-t border-white/10 text-center opacity-70 text-sm">
+                <p>&copy; 2023 Dra. Mariana Torres - Abogada Penalista. Todos los derechos reservados.</p>
+                <p class="mt-2"><a href="#" class="hover:text-electric transition-colors">Aviso de Privacidad</a> | <a href="#" class="hover:text-electric transition-colors">Términos de Servicio</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/525512345678" class="fixed bottom-8 right-8 bg-[#25D366] text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-lg hover:scale-110 transition-transform z-40">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script>
+        // Efecto de luz que sigue el mouse
+        document.addEventListener('mousemove', (e) => {
+            const light = document.getElementById('light');
+            light.style.setProperty('--x', e.clientX + 'px');
+            light.style.setProperty('--y', e.clientY + 'px');
+        });
+        
+        // Header con efecto al hacer scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('bg-black/90', 'backdrop-blur-md');
+                header.classList.remove('bg-transparent', 'backdrop-blur-none');
+            } else {
+                header.classList.remove('bg-black/90', 'backdrop-blur-md');
+                header.classList.add('bg-transparent', 'backdrop-blur-none');
+            }
+        });
+        
+        // Menú móvil
+        document.getElementById('menu-toggle').addEventListener('click', () => {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+        
+        // Contador animado
+        const counters = document.querySelectorAll('.counter');
+        const speed = 200;
+        
+        counters.forEach(counter => {
+            const updateCount = () => {
+                const target = +counter.getAttribute('data-target');
+                const count = +counter.innerText;
+                const increment = target / speed;
+                
+                if (count < target) {
+                    counter.innerText = Math.ceil(count + increment);
+                    setTimeout(updateCount, 1);
+                } else {
+                    counter.innerText = target;
+                }
+            };
+            
+            updateCount();
+        });
+        
+        // Formulario de contacto
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Simular envío del formulario
+            alert('Gracias por su consulta. La Dra. Torres se pondrá en contacto con usted en menos de 30 minutos.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
